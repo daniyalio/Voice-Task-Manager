@@ -209,3 +209,20 @@ The current project is configured for local development. Before making the repos
 - Configure CORS for the real frontend URL.
 - Use HTTPS for deployed voice input and API requests.
 - Use a separate database user with limited permissions.
+
+
+## How to run the project
+
+Start the backend in one terminal:
+
+```powershell
+cd backend
+node server.js
+```
+
+Start the frontend in another terminal:
+
+```powershell
+cd frontend
+npm run dev
+```
